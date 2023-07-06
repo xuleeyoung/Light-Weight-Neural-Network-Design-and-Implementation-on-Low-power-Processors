@@ -41,3 +41,7 @@ The resulting light-weight network parameter files and itermediate files are all
 
 ### Testing Only (After Compressing)
 
+### Reference
+S. Han, H. Mao, and W. Dally, "Deep Compression: Compressing deep neural networks with pruning, trained quantization and Huffman coding", in ICLR, 2016.
+
+S. Teerapittayanon, B. McDanel and H. T. Kung, "BranchyNet: Fast inference via early exiting from deep neural networks," 2016 23rd International Conference on Pattern Recognition (ICPR), Cancun, Mexico, 2016.
