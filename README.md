@@ -3,7 +3,8 @@ Deep Compression Pipeline + BranchyNet
 
 Main stages include: Branch Adding -> Pruning -> Quantization -> Coding
 
-For VGG-16, the pipeline ahieves storage reduction from 527.8 MB to 28 MB, and running time saving from 172504 ms to 74908 ms.
+For VGG-16, the pipeline achieves storage reduction from 527.8 MB to 28 MB, and running time saving from 172504 ms to 74908 ms on CIFAR-10 test dataset.
+For ResNet-50, ...
 
 ### Compressing Procedures:
 1. Download models from torchvision
