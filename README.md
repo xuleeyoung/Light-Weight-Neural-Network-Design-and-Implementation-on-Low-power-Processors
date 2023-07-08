@@ -6,8 +6,8 @@ Main stages include: Branch Adding -> Pruning -> Quantization -> Coding
 For VGG-16, the pipeline achieves storage reduction from 527.8 MB to 28 MB, and running time saving from 172504 ms to 74908 ms on CIFAR-10 test dataset.
 For ResNet-50, ...
 
-|  Criterion ｜ Original | Branch Adding | Pruning | Quantization | Coding |
-| ----- | ----- | ----- | ----- | ----- |
+|  Criterion | Original | Branch Adding | Pruning | Quantization | Coding |
+| ----- | ----- | ----- | ----- | ----- | ----- |
 | Accuracy | 86.83% | 85.7% | 85.32% | 84.7% | 84.7% |
 | Storage (MB) | 527.8 | 625.9 | 625.9 | 156.6 | 28 |
 | Running time (ms) | 172504 | 73061 | 71855 | 75385 | 74908 |
