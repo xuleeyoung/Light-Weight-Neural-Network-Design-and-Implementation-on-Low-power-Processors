@@ -17,9 +17,9 @@ For ResNet-50, the pipeline achieves storage reduction from 527.8 MB to 28 MB, a
 
 |  ResNet-50 | Original | Branch Adding | Pruning | Quantization | Coding |
 | ----- | ----- | ----- | ----- | ----- | ----- |
-| Accuracy | 86.83% | 85.7% | 85.32% | 84.7% | 84.7% |
-| Storage (MB) | 527.8 | 625.9 | 625.9 | 156.6 | 28 |
-| Running time (ms) | 172504 | 73061 | 71855 | 75385 | 74908 |
+| Accuracy | 58.4% | 52.82% | 52.77% | 84.7% | 84.7% |
+| Storage (MB) | 90.8 | 91 | 91 | 156.6 | 28 |
+| Running time (ms) | 112699 | 107054 | 107912 | 75385 | 74908 |
 
 
 ### Compressing Procedures:
