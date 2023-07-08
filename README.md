@@ -13,13 +13,13 @@ For VGG-16, the pipeline achieves storage reduction from 527.8 MB to 28 MB, and 
 | Storage (MB) | 527.8 | 625.9 | 625.9 | 156.6 | 28 |
 | Running time (ms) | 172504 | 73061 | 71855 | 75385 | 74908 |
 
-For ResNet-50, the pipeline achieves storage reduction from 527.8 MB to 28 MB, and running time saving from 172504 ms to 74908 ms on CIFAR-100 test dataset (Hardware: NVIDIA GeForce RTX 2080). 
+For ResNet-50, the pipeline achieves storage reduction from 527.8 MB to 28 MB, and running time saving from 112699 ms to 74908 ms on CIFAR-100 test dataset (Hardware: NVIDIA GeForce RTX 2080). 
 
 |  ResNet-50 | Original | Branch Adding | Pruning | Quantization | Coding |
 | ----- | ----- | ----- | ----- | ----- | ----- |
-| Accuracy | 58.4% | 52.82% | 52.77% | 84.7% | 84.7% |
-| Storage (MB) | 90.8 | 91 | 91 | 156.6 | 28 |
-| Running time (ms) | 112699 | 107054 | 107912 | 75385 | 74908 |
+| Accuracy | 58.4% | 52.82% | 52.77% | 52.68% | 52.68% |
+| Storage (MB) | 90.8 | 91 | 91 | 31.3 | 21.2 |
+| Running time (ms) | 112699 | 107054 | 107912 | 107653 | 103726 |
 
 
 ### Compressing Procedures:
